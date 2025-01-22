@@ -1,9 +1,9 @@
 <template>
-    <div class="top">
-        <img src="../assets/sh-logo-quill.png">
-        <h1>The Sisterhood Project</h1>
+    <div class="flex flex-col items-center">
+        <img src="../assets/sh-logo-quill.png" class="w-96">
+        <h1 class="text-center">The Sisterhood Project</h1>
     </div>
-    <nav>
+    <nav class="flex justify-center gap-2 border-b-4 border-front pb-4 lg:border-none">
         <a href="#about">About</a>
         <a href="#download">Download</a>
         <a href="#credits">Credits</a>
@@ -11,24 +11,7 @@
 </template>
 
 <style scoped>
-.top img {
-    object-fit: contain;
-    height: 40vh;
-}
-.top h1 {
-    font-size: 52px;
-}
-nav {
-    display: flex;
-}
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    background-color: var(--color-background-mute);
-    padding: 0.6em;
-    border-radius: 10px;
-}
-nav a:hover {
-    background-color: var(--color-background-soft);
-}
+    nav > a {
+        @apply no-underline bg-back-dark p-2 rounded-lg hover:bg-back-light;
+    }
 </style>

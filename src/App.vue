@@ -6,33 +6,20 @@ import Credits from "./components/Credits.vue";
 </script>
 
 <template>
-  <header>
-    <SiteHeader />
-  </header>
-  <main>
-    <section id="about">
-      <About />
-    </section>
-    <section id="download">
-      <Downloads />
-    </section>
-    <section id="credits">
-      <Credits />
-    </section>
-  </main>
+  <div class="container max-w-4xl m-auto">
+    <header class="flex flex-col justify-center">
+      <SiteHeader />
+    </header>
+    <main class="p-2 lg:border-4 lg:border-front lg:rounded-lg">
+      <section id="about">
+        <About />
+      </section>
+      <section id="download">
+        <Downloads />
+      </section>
+      <section id="credits">
+        <Credits />
+      </section>
+    </main>
+  </div>
 </template>
-
-<style scoped>
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background: linear-gradient(white, transparent 50%);
-  padding-bottom: 1rem;
-  border-bottom: 0.5rem solid var(--color-text);
-}
-main {
-  padding: 2rem;
-}
-</style>
