@@ -1,8 +1,5 @@
 <script setup>
-import IconWindows from "./icons/IconWindows.vue";
-import IconApple from "./icons/IconApple.vue";
-import IconLinux from "./icons/IconLinux.vue";
-import IconAndroid from "./icons/IconAndroid.vue";
+import { Icon } from "@iconify/vue";
 </script>
 
 <template>
@@ -11,14 +8,14 @@ import IconAndroid from "./icons/IconAndroid.vue";
         <div class="version">
             <h2>Act 1 (1.0)</h2>
             <div class="platform">
-                <div class="systems">Windows Installer <IconWindows /></div>
+                <div class="systems">Windows Installer <Icon icon="ri:windows-fill" /></div>
                 <div class="links">
                     <a href="#">Download .exe</a>
                 </div>
             </div>
             <hr>
             <div class="platform">
-                <div class="systems">Windows <IconWindows />, Mac OSX <IconApple />, Linux <IconLinux />, Android <IconAndroid /></div>
+                <div class="systems">Windows <Icon icon="ri:windows-fill" />, Mac OSX <Icon icon="ic:baseline-apple" />, Linux <Icon icon="mdi:linux" />, Android <Icon icon="basil:android-solid" /></div>
                 <div class="links">
                     <a href="#">How to Install</a>
                     <a href="#">Download .rpa</a>
@@ -51,7 +48,7 @@ hr {
     @apply flex flex-col justify-end gap-2 sm:flex-row;
 }
 .links a {
-    @apply no-underline bg-back-dark p-2 rounded-lg hover:bg-front-bright;
+    @apply no-underline bg-back-dark p-2 rounded-lg hover:bg-front hover:text-back-light;
 }
 </style>
 

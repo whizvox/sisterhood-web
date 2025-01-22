@@ -1,8 +1,8 @@
 <script setup>
 import SiteHeader from "./components/SiteHeader.vue";
-import About from "./components/About.vue";
-import Downloads from "./components/Downloads.vue";
-import Credits from "./components/Credits.vue";
+import HomeAbout from "./components/HomeAbout.vue";
+import HomeDownloads from "./components/HomeDownloads.vue";
+import HomeCredits from "./components/HomeCredits.vue";
 </script>
 
 <template>
@@ -12,13 +12,13 @@ import Credits from "./components/Credits.vue";
     </header>
     <main class="p-2 lg:border-4 lg:border-front lg:rounded-lg">
       <section id="about">
-        <About />
+        <HomeAbout />
       </section>
       <section id="download">
-        <Downloads />
+        <HomeDownloads />
       </section>
       <section id="credits">
-        <Credits />
+        <HomeCredits />
       </section>
     </main>
   </div>

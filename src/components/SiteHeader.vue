@@ -12,6 +12,6 @@
 
 <style scoped>
     nav > a {
-        @apply no-underline bg-back-dark p-2 rounded-lg hover:bg-back-light;
+        @apply no-underline bg-back-dark p-2 rounded-lg hover:bg-front hover:text-back-light;
     }
 </style>
