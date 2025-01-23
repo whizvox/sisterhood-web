@@ -1,5 +1,10 @@
 <script setup>
-import { Icon } from "@iconify/vue";
+import FancyButton from "./FancyButton.vue";
+import HowToInstallModal from "./HowToInstallModal.vue";
+import WindowsIcon from "./icons/WindowsIcon.vue";
+import MacIcon from "./icons/MacIcon.vue";
+import LinuxIcon from "./icons/LinuxIcon.vue";
+import AndroidIcon from "./icons/AndroidIcon.vue";
 </script>
 
 <template>
@@ -8,25 +13,45 @@ import { Icon } from "@iconify/vue";
         <div class="version">
             <h2>Act 1 (1.0)</h2>
             <div class="platform">
-                <div class="systems">Windows Installer <Icon icon="ri:windows-fill" /></div>
+                <div class="systems">Windows Installer <WindowsIcon /></div>
                 <div class="links">
-                    <a href="#">Download .exe</a>
+                    <FancyButton href="#">Download .exe</FancyButton>
                 </div>
             </div>
             <hr>
             <div class="platform">
-                <div class="systems">Windows <Icon icon="ri:windows-fill" />, Mac OSX <Icon icon="ic:baseline-apple" />, Linux <Icon icon="mdi:linux" />, Android <Icon icon="basil:android-solid" /></div>
+                <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon /></div>
                 <div class="links">
-                    <a href="#">How to Install</a>
-                    <a href="#">Download .rpa</a>
+                    <FancyButton :onClick="showH2IModal">How to Install</FancyButton>
+                    <FancyButton href="#">Download .rpa</FancyButton>
                 </div>
             </div>
         </div>
     </div>
-    <div class="legacy-downloads">
+    <!-- <div class="legacy-downloads">
 
-    </div>
+    </div> -->
+    <HowToInstallModal v-show="isH2IModalVisible" @close="closeH2IModal" />
 </template>
+
+<script>
+export default {
+    name: "HowToInstallModal",
+    data() {
+        return {
+            isH2IModalVisible: false
+        };
+    },
+    methods: {
+        showH2IModal() {
+            this.isH2IModalVisible = true;
+        },
+        closeH2IModal() {
+            this.isH2IModalVisible = false;
+        }
+    }
+}
+</script>
 
 <style scoped>
 hr {

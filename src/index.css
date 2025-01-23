@@ -17,9 +17,19 @@ h2 {
 h3 {
     @apply text-2xl;
 }
+ol {
+    @apply list-decimal pl-6;
+}
 a {
-    text-decoration: underline;
+    @apply underline;
 }
 a:hover {
     @apply text-front-dark;
+}
+.code {
+    @apply font-monospace bg-back-dark;
+}
+.iconify {
+    @apply inline-block align-top;
+    font-size: 1em;
 }

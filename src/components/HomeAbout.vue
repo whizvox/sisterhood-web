@@ -40,7 +40,7 @@
                 <img src="../assets/screenshot-akira.png" />
                 <figcaption>Akira giving Lilly some worldly advice.</figcaption>
             </figure>
-            <figure class="figright">
+            <figure>
                 <img src="../assets/screenshot-field.png" />
                 <figcaption>Hisao and Hanako on vacation.</figcaption>
             </figure>
@@ -48,7 +48,7 @@
                 <img src="../assets/screenshot-takawa.png" />
                 <figcaption>Hisao meets with one of Yamaku's therapists.</figcaption>
             </figure>
-            <figure class="figright">
+            <figure>
                 <img src="../assets/screenshot-bed.png" />
                 <figcaption>Hisao and Hanako spend an intimate night together.</figcaption>
             </figure>
@@ -56,7 +56,7 @@
                 <img src="../assets/screenshot-hotel.png" />
                 <figcaption>Hisao and Hanako definitely don't do anything wierd.</figcaption>
             </figure>
-            <figure class="figright">
+            <figure>
                 <img src="../assets/screenshot-caress.png" />
                 <figcaption>The bonds of sisterhood grow ever stronger.</figcaption>
             </figure>
@@ -75,45 +75,3 @@ figcaption {
     @apply bg-back-dark w-11/12 rounded-b-lg p-2;
 }
 </style>
-
-<!-- <style scoped>
-.screenshots {
-    display: flex;
-    flex-direction: column;
-}
-figure {
-    margin: 20px 0;
-    width: 70%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-figure img {
-    object-fit: contain;
-    width: 100%;
-    border: 0.3rem solid var(--color-text);
-    border-radius: 20px;
-}
-figcaption {
-    background-color: var(--color-background-mute);
-    width: 70%;
-    margin-left: 50px;
-    border: 0.3rem solid var(--color-text);
-    border-top: none;
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.figright {
-    align-self: flex-end;
-}
-.figright figcaption {
-    align-self: flex-end;
-    margin-left: 0;
-    margin-right: 50px;
-}
-p {
-    margin-bottom: 0.8em;
-}
-</style> -->

@@ -1,7 +1,7 @@
 <script setup>
 import SiteHeader from "./components/SiteHeader.vue";
 import HomeAbout from "./components/HomeAbout.vue";
-import HomeDownloads from "./components/HomeDownloads.vue";
+import HomeDownload from "./components/HomeDownload.vue";
 import HomeCredits from "./components/HomeCredits.vue";
 </script>
 
@@ -15,7 +15,7 @@ import HomeCredits from "./components/HomeCredits.vue";
         <HomeAbout />
       </section>
       <section id="download">
-        <HomeDownloads />
+        <HomeDownload />
       </section>
       <section id="credits">
         <HomeCredits />

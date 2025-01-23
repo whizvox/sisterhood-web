@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ["Jua", "sans-serif"]
+      sans: ["Jua", "sans-serif"],
+      monospace: ["monospace"]
     },
     extend: {
       colors: {
@@ -21,7 +22,8 @@ export default {
           DEFAULT: "rgb(231, 216, 164)",
           "dark": "rgb(185, 177, 148)",
           "light": "rgb(255, 243, 198)",
-          "important": "rgb(107, 25, 25)"
+          "important": "rgb(107, 25, 25)",
+          "modal": "rgb(0, 0, 0, 0.3)"
         }
       }
     },
