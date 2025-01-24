@@ -9,13 +9,13 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
     <h1>Credits</h1>
     <div class="bg-back-light border-2 border-front p-4 rounded-lg flex flex-col gap-2">
         <div class="category">
-            <h2>Original Work</h2>
+            <h3>Original Work</h3>
             <div class="names">
                 <div><a href="https://ks.fhs.sh/viewtopic.php?t=9907" target="_blank">Sisterhood</a> by Guest Poster</div>
             </div>
         </div>
         <div class="category">
-            <h2>CG Art</h2>
+            <h3>CG Art</h3>
             <div class="names">
                 <div><a class="social" href="https://bsky.app/profile/zenmaruki.bsky.social" target="_blank"><BlueskyIcon /></a> ZenMaruki</div>
                 <div><a class="social" href="https://x.com/Prince_G07" target="_blank"><TwitterIcon /></a> PrinceG07</div>
@@ -24,26 +24,26 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             </div>
         </div>
         <div class="category">
-            <h2>Sprite Art</h2>
+            <h3>Sprite Art</h3>
             <div class="names">
                 <div><a class="social" href="https://x.com/dizzenzd"><TwitterIcon /></a> DIZZEN</div>
             </div>
         </div>
         <div class="category">
-            <h2>Sprite Edits</h2>
+            <h3>Sprite Edits</h3>
             <div class="names">
                 <div>nijo</div>
                 <div>Alex FRD</div>
             </div>
         </div>
         <div class="category">
-            <h2>Trailer / End Credits Song</h2>
+            <h3>Trailer / End Credits Song</h3>
             <div class="names">
                 <div><a class="social" href="https://www.youtube.com/@TheCastillerian"><YoutubeIcon /></a> Castillerian</div>
             </div>
         </div>
         <div class="category">
-            <h2>Beta Testers</h2>
+            <h3>Beta Testers</h3>
             <div class="names">
                 <div>Guest Poster</div>
                 <div>Alex FRD</div>
@@ -52,7 +52,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             </div>
         </div>
         <div class="category">
-            <h2>Special Thanks</h2>
+            <h3>Special Thanks</h3>
             <div class="names">
                 <div>Alex FRD</div>
                 <div>Vladimir Hodakov</div>
@@ -64,7 +64,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             </div>
         </div>
         <div class="category">
-            <h2>Directing, Engineering, Administration</h2>
+            <h3>Directing, Engineering, Administration</h3>
             <div class="names">whizvox</div>
         </div>
     </div>
@@ -72,7 +72,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
 
 <style scoped>
 .category {
-    @apply flex flex-col lg:flex-row lg:justify-between;
+    @apply flex flex-col md:flex-row md:justify-between;
 }
 .names {
     @apply flex flex-col text-end;

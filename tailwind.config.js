@@ -23,7 +23,8 @@ export default {
           "dark": "rgb(185, 177, 148)",
           "light": "rgb(255, 243, 198)",
           "important": "rgb(107, 25, 25)",
-          "modal": "rgb(0, 0, 0, 0.3)"
+          "modal": "rgb(0, 0, 0, 0.3)",
+          "main": "rgb(255, 255, 255, 0.3)"
         }
       }
     },

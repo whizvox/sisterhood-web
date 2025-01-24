@@ -21,7 +21,7 @@ import AndroidIcon from './icons/AndroidIcon.vue';
                     <li>Download the <span class="code">.rpa</span> file.</li>
                     <li>Download and install <a href="https://www.fhs.sh/projects/ksre">Katawa Shoujo: Re-Engineered</a>.</li>
                     <li>Move the <span class="code">sisterhood.rpa</span> file into the <span class="code">game</span> folder of your Katawa Shoujo: Re-Engineered installation.</li>
-                    <li>The final result should look something like this: <img class="w-5/6" src="../assets/screenshot-install-windows.png"></li>
+                    <li>The final result should look something like this: <img class="w-5/6" src="../assets/screenshot-install-windows.webp"></li>
                     <li>Start Katawa Shoujo: Re-Engineered.</li>
                     <li>Clicking on the Mods button should reveal Sisterhood as a menu option.</li>
                 </ol>
@@ -36,7 +36,7 @@ import AndroidIcon from './icons/AndroidIcon.vue';
                     <li>Navigate to the <span class="code">Android/data/sh.fhs.ksre/files</span> folder. You may need to run Katawa Shoujo: Re-Engineered at least once if you don't see this folder.</li>
                     <li>Create a new folder called <span class="code">game</span>.</li>
                     <li>Move the <span class="code">sisterhood.rpa</span> file into the <span class="code">game</span> folder.</li>
-                    <li>The final result should look something like this: <img class="w-5/6" src="../assets/screenshot-install-android.png"> (Note: the file size may differ)</li>
+                    <li>The final result should look something like this: <img class="w-5/6" src="../assets/screenshot-install-android.webp"> (Note: the file size may differ)</li>
                     <li>Open Katawa Shoujo: Re-Engineered.</li>
                     <li>Tapping on the Mods button should reveal Sisterhood as a menu option.</li>
                 </ol>

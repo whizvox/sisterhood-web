@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    @apply text-front lg:text-lg;
-}
 body {
-    @apply bg-back;
+    @apply bg-back text-front lg:text-lg;
+    background-image: url("./assets/bgimg.webp");
 }
 h1 {
     @apply text-4xl;
@@ -32,4 +30,7 @@ a:hover {
 .iconify {
     @apply inline-block align-text-top;
     font-size: 1em;
+}
+.fancybtn:hover svg {
+    @apply text-back-light;
 }

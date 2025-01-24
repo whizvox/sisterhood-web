@@ -34,30 +34,30 @@
             Throughout all of this, Hanako and Hisao learn to love each other, and Hanako and Lilly learn to understand each
             other.
         </p>
-        <h2 class="mt-4 mb-2">Gallery</h2>
+        <h2 class="mt-4">Gallery</h2>
         <div class="flex flex-col items-center">
             <figure>
-                <img src="../assets/screenshot-akira.png" />
+                <img src="../assets/screenshot-akira.webp" />
                 <figcaption>Akira giving Lilly some worldly advice.</figcaption>
             </figure>
             <figure>
-                <img src="../assets/screenshot-field.png" />
+                <img src="../assets/screenshot-field.webp" />
                 <figcaption>Hisao and Hanako on vacation.</figcaption>
             </figure>
             <figure>
-                <img src="../assets/screenshot-takawa.png" />
+                <img src="../assets/screenshot-takawa.webp" />
                 <figcaption>Hisao meets with one of Yamaku's therapists.</figcaption>
             </figure>
             <figure>
-                <img src="../assets/screenshot-bed.png" />
+                <img src="../assets/screenshot-bed.webp" />
                 <figcaption>Hisao and Hanako spend an intimate night together.</figcaption>
             </figure>
             <figure>
-                <img src="../assets/screenshot-hotel.png" />
+                <img src="../assets/screenshot-hotel.webp" />
                 <figcaption>Hisao and Hanako definitely don't do anything wierd.</figcaption>
             </figure>
             <figure>
-                <img src="../assets/screenshot-caress.png" />
+                <img src="../assets/screenshot-caress.webp" />
                 <figcaption>The bonds of sisterhood grow ever stronger.</figcaption>
             </figure>
         </div>

@@ -4,6 +4,7 @@ import HomeTrailer from "./components/HomeTrailer.vue";
 import HomeAbout from "./components/HomeAbout.vue";
 import HomeDownload from "./components/HomeDownload.vue";
 import HomeCredits from "./components/HomeCredits.vue";
+import SiteFooter from "./components/SiteFooter.vue";
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import HomeCredits from "./components/HomeCredits.vue";
     <header class="flex flex-col justify-center">
       <SiteHeader />
     </header>
-    <main class="p-2 lg:border-4 lg:border-front lg:rounded-lg flex flex-col gap-4">
+    <main class="p-2 border-4 border-front rounded-lg flex flex-col gap-4 bg-back-main">
       <section id="trailer">
         <HomeTrailer />
       </section>
@@ -25,5 +26,8 @@ import HomeCredits from "./components/HomeCredits.vue";
         <HomeCredits />
       </section>
     </main>
+    <footer>
+      <SiteFooter />
+    </footer>
   </div>
 </template>

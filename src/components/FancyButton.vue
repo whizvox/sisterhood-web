@@ -3,7 +3,7 @@ defineProps(["href", "onClick"]);
 </script>
 
 <template>
-    <a :href="href" @click="onClick"><slot></slot></a>
+    <a :href="href" @click="onClick" class="fancybtn"><slot></slot></a>
 </template>
 
 <style scoped>
