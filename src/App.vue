@@ -1,5 +1,6 @@
 <script setup>
 import SiteHeader from "./components/SiteHeader.vue";
+import HomeTrailer from "./components/HomeTrailer.vue";
 import HomeAbout from "./components/HomeAbout.vue";
 import HomeDownload from "./components/HomeDownload.vue";
 import HomeCredits from "./components/HomeCredits.vue";
@@ -10,7 +11,10 @@ import HomeCredits from "./components/HomeCredits.vue";
     <header class="flex flex-col justify-center">
       <SiteHeader />
     </header>
-    <main class="p-2 lg:border-4 lg:border-front lg:rounded-lg">
+    <main class="p-2 lg:border-4 lg:border-front lg:rounded-lg flex flex-col gap-4">
+      <section id="trailer">
+        <HomeTrailer />
+      </section>
       <section id="about">
         <HomeAbout />
       </section>

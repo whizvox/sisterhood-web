@@ -17,7 +17,7 @@ h2 {
 h3 {
     @apply text-2xl;
 }
-ol {
+ol, ul {
     @apply list-decimal pl-6;
 }
 a {
@@ -30,6 +30,6 @@ a:hover {
     @apply font-monospace bg-back-dark;
 }
 .iconify {
-    @apply inline-block align-top;
+    @apply inline-block align-text-top;
     font-size: 1em;
 }
