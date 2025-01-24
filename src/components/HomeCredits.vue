@@ -26,7 +26,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
         <div class="category">
             <h3>Sprite Art</h3>
             <div class="names">
-                <div><a class="social" href="https://x.com/dizzenzd"><TwitterIcon /></a> DIZZEN</div>
+                <div><a class="social" href="https://x.com/dizzenzd" target="_blank"><TwitterIcon /></a> DIZZEN</div>
             </div>
         </div>
         <div class="category">
@@ -39,7 +39,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
         <div class="category">
             <h3>Trailer / End Credits Song</h3>
             <div class="names">
-                <div><a class="social" href="https://www.youtube.com/@TheCastillerian"><YoutubeIcon /></a> Castillerian</div>
+                <div><a class="social" href="https://www.youtube.com/@TheCastillerian" target="_blank"><YoutubeIcon /></a> Castillerian</div>
             </div>
         </div>
         <div class="category">
