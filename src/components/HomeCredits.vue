@@ -19,7 +19,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             <div class="names">
                 <div><a class="social" href="https://bsky.app/profile/zenmaruki.bsky.social" target="_blank"><BlueskyIcon /></a> ZenMaruki</div>
                 <div><a class="social" href="https://x.com/Prince_G07" target="_blank"><TwitterIcon /></a> PrinceG07</div>
-                <div><a class="social" href="https://likhos-art.somnovastudios.co/home" target="_blank"><WebsiteIcon /></a> Likhos</div>
+                <div><a class="social" href="https://likhos-art.somnovastudios.co" target="_blank"><WebsiteIcon /></a> Likhos</div>
                 <div><a class="social" href="https://x.com/LegendarysoulII" target="_blank"><TwitterIcon /></a> legendarysoulII</div>
             </div>
         </div>
