@@ -5,6 +5,15 @@ import HowToInstallModal from "./HowToInstallModal.vue";
 // import MacIcon from "./icons/MacIcon.vue";
 // import LinuxIcon from "./icons/LinuxIcon.vue";
 // import AndroidIcon from "./icons/AndroidIcon.vue";
+
+function toUTC(date) {
+    let result = new Date(date);
+    result.setMinutes(result.getMinutes() - result.getTimezoneOffset());
+    return result;
+}
+function countDays(start, end) {
+    return Math.round((toUTC(end) - toUTC(start)) / (24 * 60 * 60 * 1000));
+}
 </script>
 
 <template>
@@ -26,7 +35,7 @@ import HowToInstallModal from "./HowToInstallModal.vue";
                     <FancyButton href="#">Download .rpa</FancyButton>
                 </div>
             </div> -->
-            Coming February 14, 2025!
+            Available February 14, 2025! That's in {{ countDays(new Date(), new Date("2025-02-14T20:00:00.000+00:00")) }} days!
         </div>
     </div>
     <HowToInstallModal v-show="isH2IModalVisible" @close="closeH2IModal" />
