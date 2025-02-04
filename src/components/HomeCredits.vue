@@ -33,7 +33,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             <h3>Sprite Edits</h3>
             <div class="names">
                 <div>nijo</div>
-                <div>Alex FRD</div>
+                <div>Celestial Caesar</div>
             </div>
         </div>
         <div class="category">
@@ -46,7 +46,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             <h3>Beta Testers</h3>
             <div class="names">
                 <div>Guest Poster</div>
-                <div>Alex FRD</div>
+                <div>Celestial Caesar</div>
                 <div>ZenMaruki</div>
                 <div>Melad</div>
             </div>
@@ -54,7 +54,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
         <div class="category">
             <h3>Special Thanks</h3>
             <div class="names">
-                <div>Alex FRD</div>
+                <div>Celestial Caesar</div>
                 <div>Vladimir Hodakov</div>
                 <div>Ikariya</div>
                 <div>Grayest</div>
