@@ -5,7 +5,7 @@
             Sisterhood is an ambitious project to expand the narrative of the cult classic visual novel,
             <a href="https://www.katawa-shoujo.com/">Katawa Shoujo</a>, by adapting the epic-length work of fanfiction,
             <a href="https://ks.fhs.sh/viewtopic.php?t=9907">Sisterhood</a>, into a full-fledged visual novel. So if you
-            haven't read Katawa Shoujo, then this story won't make much sense.
+            haven't read Katawa Shoujo, then this story won't make any sense.
         </p>
         <p>
             Please read it if you haven't already! This project is actually a mod for 
@@ -17,17 +17,15 @@
         </p>
         <h2 class="mt-4 mb-2">The Story</h2>
         <p>
-            The story takes place at Yamaku High School, a school located in modern-day Japan which supports disabled
-            students through some of the most important years of their lives.
+            The story picks up after Hisao and Hanako's public intimate moment in the park—a moment to cement their
+            newfound status as boyfriend and girlfriend. Lilly and Akira had previously been summoned to Scotland, and
+            now must answer the request to move back in with their estranged family.
         </p>
         <p>
-            Throughout the narrative, the perspective will shift between a few different people. Hisao, a kind-hearted boy
-            that has been recently diagnosed with a heart condition, navigates the turbulent waters of a newfound romantic
-            relationship. Hanako, a reclusive girl afflicted with severe burn scars on her right side, learns to overcome
-            her anxiety, open up to people, and discover her path in life. Lilly, a blind-since-birth motherly figure, deals
-            with balancing two great forces in her life: her family back in Scotland, and her newfound family at Yamaku.
-            Akira, the hardworking yet playful older sister of Lilly, accepts an important career promotion at the cost of
-            being interwoven into family politics.
+            Throughout the story, the perspective will shift between a few different people. Hisao, carefully
+            treading the waters of his newfound condition and relationship. Hanako, learning to open up to people and
+            find her own path in life. Akira, navigating family politics and climbing the corporate ladder. And Lilly,
+            balancing her family by blood and her family by bond.
         </p>
         <p>
             On this journey, Hanako and Hisao learn to love each other, and Hanako and Lilly learn to understand each
