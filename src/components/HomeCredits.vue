@@ -30,6 +30,12 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             </div>
         </div>
         <div class="category">
+            <h3>Additional Art</h3>
+            <div class="names">
+                <div><a class="social" href="https://x.com/niomesan" target="_blank"><TwitterIcon /></a> nijo</div>
+            </div>
+        </div>
+        <div class="category">
             <h3>Sprite Edits</h3>
             <div class="names">
                 <div>nijo</div>
