@@ -10,7 +10,7 @@ import KoFiIcon from './icons/KoFiIcon.vue';
     <div class=" flex flex-row flex-wrap justify-center py-8 gap-4">
         <FancyButton href="https://ko-fi.com/M4M512AHJB"><KoFiIcon /> Buy me a coffee</FancyButton>
         <FancyButton href="https://codeberg.org/whizvox/sisterhood-ksre"><CodeIcon /> View source</FancyButton>
-        <FancyButton href="https://discord.gg/xMVbax7D"><DiscordIcon /> Join the Discord / <BugIcon /> Report a Bug</FancyButton>
+        <FancyButton href="https://discord.gg/GZFSPDNcRE"><DiscordIcon /> Join the Discord / <BugIcon /> Report a bug</FancyButton>
     </div>
     <div class="flex flex-row justify-center mb-4">Copyright &copy; 2025 whizvox</div>
 </template>
