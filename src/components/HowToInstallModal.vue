@@ -11,6 +11,16 @@ import AndroidIcon from './icons/AndroidIcon.vue';
     <StaticModal v-show="isH2IModalVisible" @close="closeH2IModal">
         <template #title>How to Install</template>
         <template #body>
+            <div class="bg-back-important border-2 border-front-important rounded-lg p-4 mb-4">
+                <h2 class="text-front-important mb-2">Notice on Updating</h2>
+                <p>
+                    If you are updating from an old version of Sisterhood to a newer version, it is highly recommended
+                    to stay on the older version unless absolutely necessary. Attempting to load a save from an older
+                    version with a newer version installed will result in the game unexpectedly quitting to the main
+                    menu at some point.
+                </p>
+                <p>If you absolutely must update, you will need to restart from the beginning.</p>
+            </div>
             <div class="flex flex-row gap-2 mb-4">
                 <FancyButton href="#howto-pc">Windows, Mac OSX, Linux</FancyButton>
                 <FancyButton href="#howto-android">Android</FancyButton>
