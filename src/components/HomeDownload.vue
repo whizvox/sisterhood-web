@@ -5,6 +5,7 @@ import WindowsIcon from "./icons/WindowsIcon.vue";
 import MacIcon from "./icons/MacIcon.vue";
 import LinuxIcon from "./icons/LinuxIcon.vue";
 import AndroidIcon from "./icons/AndroidIcon.vue";
+import FlatpakIcon from "./icons/FlatpakIcon.vue";
 import CodeIcon from "./icons/CodeIcon.vue";
 
 // function toUTC(date) {
@@ -19,21 +20,28 @@ import CodeIcon from "./icons/CodeIcon.vue";
 
 <template>
     <h1>Download</h1>
-    <div class="bg-back-light p-4 border-front border-2 rounded-lg">
+    <div class="bg-back-light p-4 border-front border-2 rounded-lg mb-4">
         <div class="version">
             <div class="flex justify-between">
-                <h2 class="inline-block">Act 1 (1.0.1)</h2>
+                <h2 class="inline-block">All-in-One Installer</h2>
                 <span class="italic text-front-light">Updated Feb 17, 2025</span>
             </div>
             <div class="platform">
-                <div class="systems">Windows Installer <WindowsIcon /></div>
+                <div class="systems">Windows <WindowsIcon /> (v1.1)</div>
                 <div class="links">
                     <FancyButton href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Installer%20Versions/SisterhoodInstaller-1.1.zip">Download .exe</FancyButton>
                 </div>
             </div>
-            <hr>
+        </div>
+    </div>
+    <div class="bg-back-light p-4 border-front border-2 rounded-lg">
+        <div class="version">
+            <div class="flex justify-between">
+                <h2 class="inline-block">Act 1 (v1.0.1)</h2>
+                <span class="italic text-front-light">Updated Feb 17, 2025</span>
+            </div>
             <div class="platform">
-                <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon /></div>
+                <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
                 <div class="links">
                     <FancyButton :onClick="showH2IModal">How to Install</FancyButton>
                     <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Download .rpa</FancyButton>
