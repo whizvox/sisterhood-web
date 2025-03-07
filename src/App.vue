@@ -6,6 +6,7 @@ import HomeAbout from "./components/HomeAbout.vue";
 import HomeDownload from "./components/HomeDownload.vue";
 import HomeCredits from "./components/HomeCredits.vue";
 import SiteFooter from "./components/SiteFooter.vue";
+import HomeFAQ from "./components/HomeFAQ.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import SiteFooter from "./components/SiteFooter.vue";
         <FancyButton href="#about">About</FancyButton>
         <FancyButton href="#download">Download</FancyButton>
         <FancyButton href="#credits">Credits</FancyButton>
+        <FancyButton href="#faq">FAQ</FancyButton>
       </nav>
       <section id="trailer">
         <HomeTrailer />
@@ -31,6 +33,9 @@ import SiteFooter from "./components/SiteFooter.vue";
       </section>
       <section id="credits">
         <HomeCredits />
+      </section>
+      <section id="faq">
+        <HomeFAQ />
       </section>
     </main>
     <footer>
