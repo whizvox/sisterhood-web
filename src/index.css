@@ -34,3 +34,6 @@ a:hover {
 .fancybtn:hover svg {
     @apply text-back-light;
 }
+ul {
+    list-style: disc;
+}

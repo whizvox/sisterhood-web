@@ -25,10 +25,8 @@
     </ul>
     <h3 class="underline mt-4">When is Act 2 coming out?</h3>
     <p>
-        Act 2 is still in very early stages of development, so it is difficult to narrow down any sort of release date
-        as of yet. So the answer is: I have no idea. For perspective, Act 1 took about 8 months to finish development,
-        including 1 month of beta testing. Act 2 is much larger in scale, and will require more original backgrounds
-        and artwork.
+        Act 2 is progressing nicely. The script is 95% complete and most event art is commissioned. You will be able to
+        play Act 2 by the start of spring 2026.
     </p>
     <h3 class="underline mt-4">How can I help?</h3>
     <p>
@@ -37,9 +35,7 @@
         contact @whizvox, the project lead.
     </p>
     <ul>
-        <li>Sprite editing</li>
-        <li>Photoshop / photo editing</li>
-        <li>Simplified Chinese, French, or German translation skills</li>
+        <li>Full-screen event artwork (SFW and NSFW)</li>
     </ul>
     <p>
         Alternatively, you can donate to my <a href="https://ko-fi.com/M4M512AHJB">Ko-fi page</a>, since I will need to
@@ -47,7 +43,7 @@
     </p>
     <h3 class="underline mt-4">Who is best girl?</h3>
     <p>
-        Rin, obviously.
+        Yep, still Rin.
     </p>
 </div>
 </template>
