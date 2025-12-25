@@ -30,7 +30,7 @@ import FlatpakIcon from './icons/FlatpakIcon.vue';
             <div id="howto-pc" class="mb-4">
                 <h2>Windows <WindowsIcon />, Mac <MacIcon />, Linux <LinuxIcon /></h2>
                 <ol>
-                    <li>Download the <span class="code">.rpa</span> file.</li>
+                    <li>Download the <span class="code">.rpa</span> file (<a href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Direct Download Link</a>).</li>
                     <li>Download and install <a href="https://www.fhs.sh/projects/ksre" target="_blank">Katawa Shoujo: Re-Engineered</a>.</li>
                     <li>Move the <span class="code">sisterhood.rpa</span> file into the <span class="code">game</span> folder of your Katawa Shoujo: Re-Engineered installation.</li>
                     <li>The final result should look something like this: <img class="w-5/6" src="../assets/screenshot-install-windows.webp"></li>
@@ -42,7 +42,7 @@ import FlatpakIcon from './icons/FlatpakIcon.vue';
             <div id="howto-android">
                 <h2>Android <AndroidIcon /></h2>
                 <ol>
-                    <li>Download the <span class="code">.rpa</span> file.</li>
+                    <li>Download the <span class="code">.rpa</span> file (<a href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Direct Download Link</a>).</li>
                     <li>Download and install <a href="https://www.fhs.sh/projects/ksre" target="_blank">Katawa Shoujo: Re-Engineered</a>.</li>
                     <li>Open the File Manager app on your device.</li>
                     <li>Navigate to the <span class="code">Android/data/sh.fhs.ksre/files</span> folder. You may need to run Katawa Shoujo: Re-Engineered at least once if you don't see this folder.</li>
@@ -57,7 +57,7 @@ import FlatpakIcon from './icons/FlatpakIcon.vue';
             <div id="howto-flatpak" class="mb-4">
                 <h2>Flatpak <FlatpakIcon /></h2>
                 <ol>
-                    <li>Download the <span class="code">.rpa</span> file.</li>
+                    <li>Download the <span class="code">.rpa</span> file (<a href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Direct Download Link</a>).</li>
                     <li>Download and install <a href="https://flathub.org/apps/sh.fhs.ksre" target="_blank">Katawa Shoujo: Re-Engineered</a> from Flathub.</li>
                     <li>Create a new directory at <span class="code">~/.var/app/sh.fhs.ksre/.renpy/sh.fhs.ksre/mods</span> (you should probably run KS:RE once before doing this).</li>
                     <li>Move the <span class="code">sisterhood.rpa</span> file into the newly-created <span class="code">mods</span> directory.</li>
