@@ -28,7 +28,8 @@ a:hover {
     @apply font-monospace bg-back-dark;
 }
 .iconify {
-    @apply inline-block align-text-top;
+    @apply inline-block;
+    vertical-align: baseline;
     font-size: 1em;
 }
 .fancybtn:hover svg {
