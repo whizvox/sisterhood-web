@@ -7,15 +7,8 @@ import LinuxIcon from "./icons/LinuxIcon.vue";
 import AndroidIcon from "./icons/AndroidIcon.vue";
 import FlatpakIcon from "./icons/FlatpakIcon.vue";
 import CodeIcon from "./icons/CodeIcon.vue";
-
-// function toUTC(date) {
-//     let result = new Date(date);
-//     result.setMinutes(result.getMinutes() - result.getTimezoneOffset());
-//     return result;
-// }
-// function countDays(start, end) {
-//     return Math.round((toUTC(end) - toUTC(start)) / (24 * 60 * 60 * 1000));
-// }
+import DownloadIcon from "./icons/DownloadIcon.vue";
+import ExternalIcon from "./icons/ExternalIcon.vue";
 </script>
 
 <template>
@@ -29,7 +22,7 @@ import CodeIcon from "./icons/CodeIcon.vue";
             <div class="platform">
                 <div class="systems">Windows <WindowsIcon /> (v1.1)</div>
                 <div class="links">
-                    <FancyButton href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Installer%20Versions/SisterhoodInstaller-1.1.zip">Download .exe</FancyButton>
+                    <FancyButton href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Installer%20Versions/SisterhoodInstaller-1.1.zip" :openNewTab="false"><DownloadIcon /> Download .exe</FancyButton>
                 </div>
             </div>
         </div>
@@ -43,8 +36,8 @@ import CodeIcon from "./icons/CodeIcon.vue";
             <div class="platform">
                 <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
                 <div class="links">
-                    <FancyButton :onClick="showH2IModal">How to Install</FancyButton>
-                    <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Download .rpa</FancyButton>
+                    <FancyButton :onClick="showH2IModal" class="text-center">How to Install</FancyButton>
+                    <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa" :openNewTab="false"><DownloadIcon /> Download .rpa</FancyButton>
                 </div>
             </div>
             <div>
@@ -53,8 +46,8 @@ import CodeIcon from "./icons/CodeIcon.vue";
                     <li>Replace deprecated behavior to work with Ren'Py 8.4.1 and Katawa Shoujo: Re-Engineered 2.0.3</li>
                 </ul>
             </div>
-            <div class="mt-4 flex justify-between gap-4">
-                <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases">Download previous versions</FancyButton>
+            <div class="mt-4 flex justify-between gap-4 text-center">
+                <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases"><ExternalIcon /> Download previous versions</FancyButton>
                 <FancyButton href="https://codeberg.org/whizvox/sisterhood-ksre"><CodeIcon /> View source</FancyButton>
             </div>
         </div>

@@ -15,7 +15,7 @@ import HomeFAQ from "./components/HomeFAQ.vue";
       <SiteHeader />
     </header>
     <main class="p-2 border-4 border-front rounded-lg flex flex-col gap-4 bg-back-main">
-      <nav class="flex justify-center gap-4 pb-2">
+      <nav class="flex justify-center gap-2 sm:gap-4 pb-2">
         <FancyButton href="#trailer">Trailer</FancyButton>
         <FancyButton href="#about">About</FancyButton>
         <FancyButton href="#download">Download</FancyButton>

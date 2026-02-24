@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import ExternalIcon from './icons/ExternalIcon.vue';
+
+</script>
+
 <template>
 <h1 class="mb-4">Frequently Asked Questions</h1>
 <div>
@@ -31,14 +36,14 @@
     <h3 class="underline mt-4">How can I help?</h3>
     <p>
         For the most part, it's already been decided on who's going to work on what. However, for anyone that has
-        experience with one of the following, please join <a href="https://discord.gg/GZFSPDNcRE">the Discord</a> and
+        experience with one of the following, please join <a href="https://discord.gg/GZFSPDNcRE" target="_blank">the Discord <ExternalIcon class="embed"/></a> and
         contact @whizvox, the project lead.
     </p>
     <ul>
         <li>Full-screen event artwork (SFW and NSFW)</li>
     </ul>
     <p>
-        Alternatively, you can donate to my <a href="https://ko-fi.com/M4M512AHJB">Ko-fi page</a>, since I will need to
+        Alternatively, you can donate to my <a href="https://ko-fi.com/M4M512AHJB" target="_blank">Ko-fi page <ExternalIcon class="embed"/></a>, since I will need to
         commission a large portion of the required assets.
     </p>
     <h3 class="underline mt-4">Who is best girl?</h3>

@@ -78,12 +78,15 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
 
 <style scoped>
 .category {
-    @apply flex flex-col md:flex-row md:justify-between;
+  @apply flex flex-col md:flex-row md:justify-between;
 }
 .names {
-    @apply flex flex-col text-end;
+  @apply flex flex-col text-end;
 }
 .social {
-    @apply bg-back border-2 border-front rounded-full p-0.5;
+  @apply bg-back border-2 border-front rounded-full p-0.5;
+}
+.social .iconify {
+  @apply align-text-top;
 }
 </style>

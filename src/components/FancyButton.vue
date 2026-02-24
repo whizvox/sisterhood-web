@@ -1,9 +1,9 @@
 <script setup>
-defineProps(["href", "onClick"]);
+const { href, onClick, openNewTab = true } = defineProps(["href", "onClick", "openNewTab"]);
 </script>
 
 <template>
-    <a :href="href" @click="onClick" class="fancybtn" :target="(href && href.startsWith('#')) ? null : '_blank'"><slot></slot></a>
+    <a :href="href" @click="onClick" class="fancybtn" :target="(href && !href.startsWith('#') && openNewTab) ? '_blank' : null"><slot></slot></a>
 </template>
 
 <style scoped>
