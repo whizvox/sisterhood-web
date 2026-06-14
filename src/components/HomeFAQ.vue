@@ -30,8 +30,8 @@ import ExternalIcon from './icons/ExternalIcon.vue';
     </ul>
     <h3 class="underline mt-4">When is Act 2 coming out?</h3>
     <p>
-        Act 2 is progressing nicely. The script is 95% complete and most event art is commissioned. You will be able to
-        play Act 2 by the start of spring 2026.
+        Act 2 is progressing nicely. The script is complete and all event art is commissioned. You will be able to
+        play Act 2 by late summer 2026.
     </p>
     <h3 class="underline mt-4">How can I help?</h3>
     <p>
