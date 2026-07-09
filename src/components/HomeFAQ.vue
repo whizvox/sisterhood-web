@@ -48,7 +48,9 @@ import ExternalIcon from './icons/ExternalIcon.vue';
     </p>
     <h3 class="underline mt-4">Who is best girl?</h3>
     <p>
-        Yep, still Rin.
+        <i>* ...pausing for dramatic effect... *</i>
+        <br>
+        Rin.
     </p>
 </div>
 </template>

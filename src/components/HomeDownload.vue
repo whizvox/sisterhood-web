@@ -30,8 +30,8 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
     <div class="bg-back-light p-4 border-front border-2 rounded-lg">
         <div class="version">
             <div class="flex justify-between">
-                <h2 class="inline-block">Act 1 (v1.0.3)</h2>
-                <span class="italic text-front-light">Updated Sep 15, 2025</span>
+                <h2 class="inline-block">Act 1 (v1.0.4)</h2>
+                <span class="italic text-front-light">Updated Jul 8, 2026</span>
             </div>
             <div class="platform">
                 <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
@@ -43,7 +43,8 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
             <div>
                 <h3 class="font-bold">Changelog</h3>
                 <ul class="list-disc">
-                    <li>Replace deprecated behavior to work with Ren'Py 8.4.1 and Katawa Shoujo: Re-Engineered 2.0.3</li>
+                    <li>Update to be compatible with <i>Katawa Shoujo: Re-Engineered</i> 2.0.4</li>
+                    <li>Fix crash when disabling slow sprite transitions</li>
                 </ul>
             </div>
             <div class="mt-4 flex justify-between gap-4 text-center">
