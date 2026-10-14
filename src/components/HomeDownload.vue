@@ -17,13 +17,30 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
         <div class="version">
             <div class="flex justify-between">
                 <h2 class="inline-block">Act 2 (v2.0)</h2>
-                <span class="italic text-front-light">October 14, 2026 (12:00pm Pacific Time)</span>
+                <span class="italic text-front-light">Updated Oct 14, 2026</span>
             </div>
             <div class="platform">
                 <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
                 <div class="links">
-                    <FancyButton :disabled="true"><i>Not yet!</i></FancyButton>
+                    <FancyButton :onClick="showH2IModal" class="text-center">How to Install</FancyButton>
+                    <FancyButton href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Sisterhood%20Downloads/sisterhood.rpa" :openNewTab="false"><DownloadIcon /> Download .rpa</FancyButton>
                 </div>
+            </div>
+            <div>
+                <h3 class="font-bold">Changelog</h3>
+                <ul class="list-disc">
+                    <li>Add Act 2</li>
+                    <li>Add new CGs in Indecisiveness (Chapter 10 p.2)</li>
+                    <li>Fix many grammar inconsistencies and spelling mistakes in Act 1</li>
+                    <li>Allow skipping directly to different acts when clicking the Start button</li>
+                    <li>Add Memories screen showing unlocked CGs</li>
+                    <li>Disable Credits button until game is complete</li>
+                    <li>Update to be compatible with <i>Katawa Shoujo: Re-Engineered</i> 2.0.5</li>
+                </ul>
+            </div>
+            <div class="mt-4 flex justify-between gap-4 text-center">
+                <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases"><ExternalIcon /> Download previous versions</FancyButton>
+                <FancyButton href="https://codeberg.org/whizvox/sisterhood-ksre"><CodeIcon /> View source</FancyButton>
             </div>
         </div>
     </div>
@@ -38,32 +55,6 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
                 <div class="links">
                     <FancyButton href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Installer%20Versions/SisterhoodInstaller-1.1.zip" :openNewTab="false"><DownloadIcon /> Download .exe</FancyButton>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-back-light p-4 border-front border-2 rounded-lg">
-        <div class="version">
-            <div class="flex justify-between">
-                <h2 class="inline-block">Act 1 (v1.0.4)</h2>
-                <span class="italic text-front-light">Updated Jul 8, 2026</span>
-            </div>
-            <div class="platform">
-                <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
-                <div class="links">
-                    <FancyButton :onClick="showH2IModal" class="text-center">How to Install</FancyButton>
-                    <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa" :openNewTab="false"><DownloadIcon /> Download .rpa</FancyButton>
-                </div>
-            </div>
-            <div>
-                <h3 class="font-bold">Changelog</h3>
-                <ul class="list-disc">
-                    <li>Update to be compatible with <i>Katawa Shoujo: Re-Engineered</i> 2.0.4</li>
-                    <li>Fix crash when disabling slow sprite transitions</li>
-                </ul>
-            </div>
-            <div class="mt-4 flex justify-between gap-4 text-center">
-                <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases"><ExternalIcon /> Download previous versions</FancyButton>
-                <FancyButton href="https://codeberg.org/whizvox/sisterhood-ksre"><CodeIcon /> View source</FancyButton>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 <script setup>
 import BlueskyIcon from './icons/BlueskyIcon.vue';
+import DeviantArtIcon from './icons/DeviantArtIcon.vue';
 import TwitterIcon from './icons/TwitterIcon.vue';
 import WebsiteIcon from './icons/WebsiteIcon.vue';
 import YoutubeIcon from './icons/YoutubeIcon.vue';
@@ -19,7 +20,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             <div class="names">
                 <div><a class="social" href="https://bsky.app/profile/zenmaruki.bsky.social" target="_blank"><BlueskyIcon /></a> ZenMaruki</div>
                 <div><a class="social" href="https://x.com/Prince_G07" target="_blank"><TwitterIcon /></a> PrinceG07</div>
-                <div><a class="social" href="https://www.reddit.com/user/Salad-V/" target="_blank"><WebsiteIcon /></a> SaladV1</div>
+                <div><a class="social" href="https://www.deviantart.com/salad1v" target="_blank"><DeviantArtIcon /></a> SaladV1</div>
                 <div><a class="social" href="https://likhos-art.somnovastudios.co" target="_blank"><WebsiteIcon /></a> Likhos</div>
                 <div><a class="social" href="https://x.com/LegendarysoulII" target="_blank"><TwitterIcon /></a> legendarysoulII</div>
                 <div><a class="social" href="https://x.com/PahaRaptor" target="_blank" ><TwitterIcon /></a> Paharaptor</div>
