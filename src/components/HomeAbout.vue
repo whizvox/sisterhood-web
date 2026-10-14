@@ -47,7 +47,7 @@
             </figure>
             <figure>
                 <img src="../assets/screenshot-karla.webp">
-                <figcaption>Hisao and Hanako meet an enigmatic figure.</figcaption>
+                <figcaption>A cozy picnic in the Scottish countryside.</figcaption>
             </figure>
             <figure>
                 <img src="../assets/screenshot-bed2.webp" alt="Hisao and Hanako laying in bed, both of them wearing their bathrobes. Hisao says to Hanako 'Promise me you won't laugh'.">
@@ -63,7 +63,7 @@
             </figure>
             <figure>
                 <img src="../assets/screenshot-bath.webp">
-                <figcaption>Hanako and Lilly confide in each other.</figcaption>
+                <figcaption>Hanako and Lilly bonding in the bath.</figcaption>
             </figure>
         </div>
         <div class="bg-back-important border-2 border-front-important rounded-lg p-4 mt-4">
