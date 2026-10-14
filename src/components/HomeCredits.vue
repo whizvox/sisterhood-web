@@ -19,8 +19,11 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             <div class="names">
                 <div><a class="social" href="https://bsky.app/profile/zenmaruki.bsky.social" target="_blank"><BlueskyIcon /></a> ZenMaruki</div>
                 <div><a class="social" href="https://x.com/Prince_G07" target="_blank"><TwitterIcon /></a> PrinceG07</div>
+                <div><a class="social" href="https://www.reddit.com/user/Salad-V/" target="_blank"><WebsiteIcon /></a> SaladV1</div>
                 <div><a class="social" href="https://likhos-art.somnovastudios.co" target="_blank"><WebsiteIcon /></a> Likhos</div>
                 <div><a class="social" href="https://x.com/LegendarysoulII" target="_blank"><TwitterIcon /></a> legendarysoulII</div>
+                <div><a class="social" href="https://x.com/PahaRaptor" target="_blank" ><TwitterIcon /></a> Paharaptor</div>
+                <div><a class="social" href="https://x.com/_shiori887" target="_blank"><TwitterIcon /></a> shiori887</div>
             </div>
         </div>
         <div class="category">
@@ -39,13 +42,22 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             <h3>Sprite Edits</h3>
             <div class="names">
                 <div>nijo</div>
+                <div>whizvox</div>
+                <div>Guest Poster</div>
+                <div>ZenMaruki</div>
                 <div>Celestial Caesar</div>
             </div>
         </div>
         <div class="category">
-            <h3>Trailer / End Credits Song</h3>
+            <h3>First Trailer / End Credits Song</h3>
             <div class="names">
                 <div><a class="social" href="https://www.youtube.com/@TheCastillerian" target="_blank"><YoutubeIcon /></a> Castillerian</div>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Concord - Cello Arrangement</h3>
+            <div class="names">
+              <div><a href="https://jiromusic.com/" class="social" target="_blank"><WebsiteIcon /></a> Jiro Yoshioka</div>
             </div>
         </div>
         <div class="category">
@@ -67,10 +79,18 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
                 <div>Fleeting Heartbeat Studios</div>
                 <div>Four Leaf Studios</div>
                 <div>The Katawa Shoujo Community</div>
+                <div>The Sisterhood Project Discord Server</div>
             </div>
         </div>
         <div class="category">
-            <h3>Directing, Engineering, Administration</h3>
+            <h3>Directing, Administration</h3>
+            <div class="names">
+              <div>whizvox</div>
+              <div>Guest Poster</div>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Engineering, Project Lead</h3>
             <div class="names">whizvox</div>
         </div>
     </div>

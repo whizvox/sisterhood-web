@@ -8,7 +8,7 @@
             haven't read Katawa Shoujo, then this story won't make any sense.
         </p>
         <p>
-            Please read it if you haven't already! This project is actually a mod for 
+            Please read it if you haven't already! This project is actually a mod for
             <a href="https://www.fhs.sh/projects/ksre">Katawa Shoujo: Re-Engineered</a>, a fan-made HD remaster that
             includes modding support, so I recommend playing through that for your first time. If you want to play the
             game in its original 4:3 aspect ratio, you can find it on <a href="https://www.katawa-shoujo.com/download">the
@@ -34,20 +34,8 @@
         <h2 class="mt-4">Gallery</h2>
         <div class="flex flex-col items-center">
             <figure>
-                <img src="../assets/screenshot-akira.webp" />
-                <figcaption>Akira gives Lilly some worldly advice.</figcaption>
-            </figure>
-            <figure>
                 <img src="../assets/screenshot-field.webp" />
                 <figcaption>Hisao and Hanako take a rural retreat.</figcaption>
-            </figure>
-            <figure>
-                <img src="../assets/screenshot-takawa.webp" />
-                <figcaption>Hisao meets with one of Yamaku's therapists.</figcaption>
-            </figure>
-            <figure>
-                <img src="../assets/screenshot-bed.webp" />
-                <figcaption>Hisao and Hanako spend an intimate night together.</figcaption>
             </figure>
             <figure>
                 <img src="../assets/screenshot-hotel.webp" />
@@ -56,6 +44,26 @@
             <figure>
                 <img src="../assets/screenshot-caress.webp" />
                 <figcaption>The bonds of sisterhood grow ever stronger.</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/screenshot-karla.webp">
+                <figcaption>Hisao and Hanako meet an enigmatic figure.</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/screenshot-bed2.webp" alt="Hisao and Hanako laying in bed, both of them wearing their bathrobes. Hisao says to Hanako 'Promise me you won't laugh'.">
+                <figcaption>Hisao has a passing thought.</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/screenshot-journal.webp" alt="A two-page spread of Hanako's journal. It details her journey from Japan to Inverness, Scotland, and includes a picture of her sleeping on Lilly's shoulder.">
+                <figcaption>A peek into Hanako's journal.</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/screenshot-history.webp">
+                <figcaption>Hanako recounts her painful history.</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/screenshot-bath.webp">
+                <figcaption>Hanako and Lilly confide in each other.</figcaption>
             </figure>
         </div>
         <div class="bg-back-important border-2 border-front-important rounded-lg p-4 mt-4">

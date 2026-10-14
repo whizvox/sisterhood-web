@@ -16,6 +16,15 @@ import ExternalIcon from './icons/ExternalIcon.vue';
         <li>KS:RE has built-in modding support, unlike Katawa Shoujo</li>
         <li>KS:RE has 16:9 HD textures, unlike Katawa Shoujo's 4:3 800x600px textures</li>
     </ul>
+    <h3 class="underline mt-4">Do you use generative AI in this project?</h3>
+    <p>
+        Full disclosure: A few background images have been either entirely generated with or have been edited via
+        generative AI tools, mostly Google Gemini. Those are the only instances of generative AI being used in this
+        project.
+    </p>
+    <p>
+        All artwork, music, and code were created by humans.
+    </p>
     <h3 class="underline mt-4">Why are these acts taking so long to come out?</h3>
     <ul>
         <li>
@@ -28,10 +37,9 @@ import ExternalIcon from './icons/ExternalIcon.vue';
             I spend working on Sisterhood.
         </li>
     </ul>
-    <h3 class="underline mt-4">When is Act 2 coming out?</h3>
+    <h3 class="underline mt-4">When is Act 3 coming out?</h3>
     <p>
-        Act 2 is progressing nicely. The script is complete and all event art is commissioned. You will be able to
-        play Act 2 by late summer 2026.
+        2027. Keep checking in for more details.
     </p>
     <h3 class="underline mt-4">How can I help?</h3>
     <p>
@@ -48,9 +56,7 @@ import ExternalIcon from './icons/ExternalIcon.vue';
     </p>
     <h3 class="underline mt-4">Who is best girl?</h3>
     <p>
-        <i>* ...pausing for dramatic effect... *</i>
-        <br>
-        Rin.
+        ...Rin, duh.
     </p>
 </div>
 </template>

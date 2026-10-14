@@ -16,6 +16,20 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
     <div class="bg-back-light p-4 border-front border-2 rounded-lg mb-4">
         <div class="version">
             <div class="flex justify-between">
+                <h2 class="inline-block">Act 2 (v2.0)</h2>
+                <span class="italic text-front-light">October 14, 2026 (12:00pm Pacific Time)</span>
+            </div>
+            <div class="platform">
+                <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
+                <div class="links">
+                    <FancyButton :disabled="true"><i>Not yet!</i></FancyButton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-back-light p-4 border-front border-2 rounded-lg mb-4">
+        <div class="version">
+            <div class="flex justify-between">
                 <h2 class="inline-block">All-in-One Installer</h2>
                 <span class="italic text-front-light">Updated Feb 17, 2025</span>
             </div>
