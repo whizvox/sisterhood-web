@@ -23,7 +23,7 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
                 <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
                 <div class="links">
                     <FancyButton :onClick="showH2IModal" class="text-center">How to Install</FancyButton>
-                    <FancyButton href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Sisterhood%20Downloads/sisterhood.rpa" :openNewTab="false"><DownloadIcon /> Download .rpa</FancyButton>
+                    <FancyButton href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa" :openNewTab="false"><DownloadIcon /> Download .rpa</FancyButton>
                 </div>
             </div>
             <div>

@@ -1,6 +1,7 @@
 <script setup>
 import BlueskyIcon from './icons/BlueskyIcon.vue';
 import DeviantArtIcon from './icons/DeviantArtIcon.vue';
+import TwitchIcon from './icons/TwitchIcon.vue';
 import TwitterIcon from './icons/TwitterIcon.vue';
 import WebsiteIcon from './icons/WebsiteIcon.vue';
 import YoutubeIcon from './icons/YoutubeIcon.vue';
@@ -37,6 +38,7 @@ import YoutubeIcon from './icons/YoutubeIcon.vue';
             <h3>Additional Art</h3>
             <div class="names">
                 <div><a class="social" href="https://x.com/niomesan" target="_blank"><TwitterIcon /></a> nijo</div>
+                <div><a class="social" href="https://www.twitch.tv/shinykerushi" target="_blank"><TwitchIcon /></a> ShinyKerushi</div>
             </div>
         </div>
         <div class="category">

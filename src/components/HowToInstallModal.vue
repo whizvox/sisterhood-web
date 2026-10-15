@@ -45,7 +45,7 @@ import ContextMenuIcon from './icons/ContextMenuIcon.vue';
             <div id="howto-pc" class="mb-4">
                 <h2>Windows <WindowsIcon class="embed" />, Mac <MacIcon class="embed" />, Linux <LinuxIcon class="embed" /></h2>
                 <ol>
-                    <li>Download the <span class="code">.rpa</span> file (<a href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Sisterhood%20Downloads/sisterhood.rpa">Direct Download Link <DownloadIcon class="embed" /></a>).</li>
+                    <li>Download the <span class="code">.rpa</span> file (<a href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Direct Download Link <DownloadIcon class="embed" /></a>).</li>
                     <li>Download and install <a href="https://www.fhs.sh/projects/ksre" target="_blank">Katawa Shoujo: Re-Engineered <ExternalIcon class="embed" /></a>.</li>
                     <li>Move the <span class="code">sisterhood.rpa</span> file into the <span class="code">game</span> folder of your Katawa Shoujo: Re-Engineered installation.</li>
                     <li>The final result should look something like this: <img class="w-5/6" src="../assets/screenshot-install-windows.webp"></li>
@@ -60,7 +60,7 @@ import ContextMenuIcon from './icons/ContextMenuIcon.vue';
                   <span class="underline">Important to Note:</span> This process requires downloading a third-party app to access Android's otherwise protected file system and may not work on future versions.
                 </div>
                 <ol class="mb-1">
-                    <li>Download the <span class="code">.rpa</span> file (<a href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Sisterhood%20Downloads/sisterhood.rpa">Direct Download Link <DownloadIcon class="embed" /></a>).</li>
+                    <li>Download the <span class="code">.rpa</span> file (<a href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Direct Download Link <DownloadIcon class="embed" /></a>).</li>
                     <li>Download, install, and run <a href="https://www.fhs.sh/projects/ksre" target="_blank">Katawa Shoujo: Re-Engineered <ExternalIcon class="embed" /></a>. After running it once, close it.</li>
                     <li>Install <a href="https://play.google.com/store/apps/details?id=com.marc.files" target="_blank">Files (by Marc apps & software) <ExternalIcon class="embed" /></a>.</li>
                     <li>Open the newly-downloaded Files app, tap the context menu in the top right (<ContextMenuIcon class="embed" />), and tap "New window".</li>
@@ -80,7 +80,7 @@ import ContextMenuIcon from './icons/ContextMenuIcon.vue';
             <div id="howto-flatpak" class="mb-4">
                 <h2>Flatpak <FlatpakIcon class="embed" /></h2>
                 <ol>
-                    <li>Download the <span class="code">.rpa</span> file (<a href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Sisterhood%20Downloads/sisterhood.rpa">Direct Download Link <DownloadIcon class="embed" /></a>).</li>
+                    <li>Download the <span class="code">.rpa</span> file (<a href="https://github.com/whizvox/sisterhood-ksre/releases/latest/download/sisterhood.rpa">Direct Download Link <DownloadIcon class="embed" /></a>).</li>
                     <li>Download and install <a href="https://flathub.org/apps/sh.fhs.ksre" target="_blank">Katawa Shoujo: Re-Engineered <ExternalIcon class="embed" /></a> from Flathub.</li>
                     <li>Move the <span class="code">sisterhood.rpa</span> file into the <span class="code">~/.var/app/sh.fhs.ksre/mods</span> directory (you should probably run KS:RE once before doing this).</li>
                     <li>The final result should look something like this: <img class="w-5/6" src="../assets/screenshot-install-flatpak2.webp"></li>
