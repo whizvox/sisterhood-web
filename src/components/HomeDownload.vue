@@ -53,7 +53,7 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
             <div class="platform">
                 <div class="systems">Windows <WindowsIcon /> (v1.1)</div>
                 <div class="links">
-                    <FancyButton href="https://u5jk2gbh3va0ygyt.public.blob.vercel-storage.com/Installer%20Versions/SisterhoodInstaller-1.1.zip" :openNewTab="false"><DownloadIcon /> Download .exe</FancyButton>
+                    <FancyButton href="https://www.dropbox.com/scl/fi/a8nvaxwnhnsdfq52ryiio/SisterhoodInstaller-1.1.zip?rlkey=36vp9hxzsjyo0ya760eske3mp&st=3gpqrv55&e=1&dl=0" :openNewTab="false"><DownloadIcon /> Download .exe</FancyButton>
                 </div>
             </div>
         </div>
