@@ -16,8 +16,8 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
     <div class="bg-back-light p-4 border-front border-2 rounded-lg mb-4">
         <div class="version">
             <div class="flex justify-between">
-                <h2 class="inline-block">Act 2 (v2.0)</h2>
-                <span class="italic text-front-light">Updated Oct 14, 2026</span>
+                <h2 class="inline-block">Act 2 (v2.0.1)</h2>
+                <span class="italic text-front-light">Updated Oct 28, 2026</span>
             </div>
             <div class="platform">
                 <div class="systems">Windows <WindowsIcon />, Mac OSX <MacIcon />, Linux <LinuxIcon />, Android <AndroidIcon />, Flatpak <FlatpakIcon /></div>
@@ -29,13 +29,13 @@ import ExternalIcon from "./icons/ExternalIcon.vue";
             <div>
                 <h3 class="font-bold">Changelog</h3>
                 <ul class="list-disc">
-                    <li>Add Act 2</li>
-                    <li>Add new CGs in Indecisiveness (Chapter 10 p.2)</li>
-                    <li>Fix many grammar inconsistencies and spelling mistakes in Act 1</li>
-                    <li>Allow skipping directly to different acts when clicking the Start button</li>
-                    <li>Add Memories screen showing unlocked CGs</li>
-                    <li>Disable Credits button until game is complete</li>
-                    <li>Update to be compatible with <i>Katawa Shoujo: Re-Engineered</i> 2.0.5</li>
+                    <li>Rework Shared Soak event in chapter 34</li>
+                    <li>Fix missing sprite in Chapter 31</li>
+                    <li>Fix a few CGs being permanently locked or missing in Memories</li>
+                    <li>Fix being unable to read scene descriptions in Chapter Select on mobile devices (viewing a replay requires tapping twice)</li>
+                    <li>Fix dialogue going off-screen on mobile devices in Chapter 24</li>
+                    <li>Fix misattributed line of dialogue in Chapter 33</li>
+                    <li>Fix a few grammar mistakes and clarify some dialogue in Chapters 5, 20, 28, and 33</li>
                 </ul>
             </div>
             <div class="mt-4 flex justify-between gap-4 text-center">
